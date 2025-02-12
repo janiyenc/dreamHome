@@ -14,6 +14,8 @@ import java.util.List;
 
 public class BranchDAO {
     
+    
+    
     // Create (Insert)
   public boolean addBranch(Branch branch) {
     String checkQuery = "SELECT COUNT(*) FROM branch WHERE branchNo = ?";
